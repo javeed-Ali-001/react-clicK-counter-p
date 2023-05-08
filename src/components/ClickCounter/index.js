@@ -1,6 +1,6 @@
 import {Component} from 'react'
 
-class Counter extends Component{
+class ClickCounter extends Component{
     state={count:0}
 }
 
@@ -32,4 +32,4 @@ onClickBtn=()=>{
   }
 }
 
-export default Counter
+export default ClickCounter
